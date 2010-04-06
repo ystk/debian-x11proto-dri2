@@ -1,13 +1,3 @@
-commit 41045095bddfe460a76fb560e1d087430d8fd76f
-Author: Francisco Jerez <currojerez@riseup.net>
-Date:   Mon Feb 8 19:24:37 2010 +0100
-
-    Define an event to notify clients about the validity of their buffers.
-    
-    Bumps the protocol and package versions.
-    
-    Signed-off-by: Francisco Jerez <currojerez@riseup.net>
-
 commit bd6f2584d3d55746bb56bf923b35e85adfd0dc3b
 Merge: 84eac7f 9c1a8f1
 Author: Jesse Barnes <jbarnes@virtuousgeek.org>

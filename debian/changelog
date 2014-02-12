@@ -1,3 +1,29 @@
+x11proto-dri2 (2.6-2) unstable; urgency=low
+
+  * Mark x11proto-dri2-dev Multi-Arch: foreign.
+  * Install .pc file to /usr/share/pkgconfig instead of
+    /usr/lib/pkgconfig
+
+ -- Steve Langasek <vorlon@debian.org>  Fri, 01 Jul 2011 17:58:26 +0100
+
+x11proto-dri2 (2.6-1) unstable; urgency=low
+
+  [ Julien Cristau ]
+  * Remove Brice from Uploaders.
+  * Wrap the Build-Depends control field.
+  * Drop unnecessary Pre-Depends on x11-common.
+
+  [ Cyril Brulebois ]
+  * New upstream release.
+  * Switch to dh:
+    - Bump debhelper build-dep and compat to 8.
+    - Use dh-autoreconf and quilt sequences, rewrite rules file.
+    - Ship dri2proto.txt through dh_install.
+    - Add placeholder quilt series file.
+  * Bump Standards-Version to 3.9.2 (no changes).
+
+ -- Cyril Brulebois <kibi@debian.org>  Thu, 30 Jun 2011 00:46:28 +0200
+
 x11proto-dri2 (2.3-1) unstable; urgency=low
 
   * New upstream release.

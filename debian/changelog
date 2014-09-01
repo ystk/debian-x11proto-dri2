@@ -1,3 +1,16 @@
+x11proto-dri2 (2.8-2) unstable; urgency=low
+
+  * Upload to unstable.
+
+ -- Julien Cristau <jcristau@debian.org>  Sun, 09 Jun 2013 14:37:36 +0200
+
+x11proto-dri2 (2.8-1) experimental; urgency=low
+
+  [ Maarten Lankhorst ]
+  * New upstream release.
+
+ -- Julien Cristau <jcristau@debian.org>  Wed, 25 Jul 2012 09:35:27 +0200
+
 x11proto-dri2 (2.6-2) unstable; urgency=low
 
   * Mark x11proto-dri2-dev Multi-Arch: foreign.
